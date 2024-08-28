@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="flex flex-shrink-0 items-center ">
         <img
           className="h-20 w-20 cursor-pointer "
-          src="src/assets/logoHR.png"
+          src="public/logoHR.png"
           alt="logo"
           onClick={handleLogoClick}
         />
