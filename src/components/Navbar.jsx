@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { TbFileCv } from "react-icons/tb";
+import logo from "../assets/logoHR.jpg";
 
 const Navbar = () => {
   const handleLogoClick = () => {
@@ -12,14 +13,14 @@ const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
       {/* logo section */}
-      {/* <div className="flex flex-shrink-0 items-center ">
+      <div className="flex flex-shrink-0 items-center ">
         <img
           className="h-20 w-20 cursor-pointer "
-          src="../assets/logoHR.jpg"
+          src={logo}
           alt="logo"
           onClick={handleLogoClick}
         />
-      </div> */}
+      </div>
 
       {/* icon section */}
       <div className="m-8 flex items-center justify-center gap-4 text-2xl ">
