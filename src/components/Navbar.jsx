@@ -12,14 +12,14 @@ const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
       {/* logo section */}
-      <div className="flex flex-shrink-0 items-center ">
+      {/* <div className="flex flex-shrink-0 items-center ">
         <img
           className="h-20 w-20 cursor-pointer "
           src="../assets/logoHR.jpg"
           alt="logo"
           onClick={handleLogoClick}
         />
-      </div>
+      </div> */}
 
       {/* icon section */}
       <div className="m-8 flex items-center justify-center gap-4 text-2xl ">
@@ -47,14 +47,14 @@ const Navbar = () => {
         >
           <FaInstagram />
         </a>
-        <a
+        {/* <a
           href="src/assets/CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-white transition-colors duration-300 text-2xl"
         >
           <TbFileCv />
-        </a>
+        </a> */}
       </div>
     </nav>
   );
