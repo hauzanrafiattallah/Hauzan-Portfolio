@@ -48,7 +48,7 @@ const Navbar = () => {
           <FaInstagram />
         </a>
         <a
-          href="src/assets/CV hauzan terbaru (12).pdf"
+          href="src/assets/CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-white transition-colors duration-300 text-2xl"
