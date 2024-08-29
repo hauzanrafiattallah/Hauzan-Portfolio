@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
+import project3 from "../assets/projects/project-3.jpg";
 
 export const HERO_CONTENT =
   "Crafting seamless user experiences with clean, responsive, and dynamic front-end designs that bring your ideas to life. Want to see the magic behind the code? Dive deeper into my journey and expertise below.";
@@ -40,6 +41,14 @@ export const PROJECTS = [
       "I worked on a project to clone the iPhone 15 website using Three.js, React, and GSAP, which I learned from YouTube. In this project, I delved into using Three.js to create 3D models and implemented interactive animations with GSAP to create a dynamic and engaging user experience. This project also provided me with a deeper understanding of integrating 3D models into web development.",
     technologies: ["React.js", "Three.js", "GSAP"],
     url: "https://react-iphone-3d.vercel.app/",
+  },
+  {
+    title: "Dapur Nusantara",
+    image: project3,
+    description:
+      "I am working on a website project called Dapur Nusantara using HTML, CSS, JavaScript, and Bootstrap. In this project, I am focusing on mastering Bootstrap to create a responsive and visually appealing design. The Dapur Nusantara website aims to provide users with information about various traditional Indonesian foods, allowing them to better understand and enjoy the diverse culinary heritage of Indonesia. Additionally, users can make reservations to dine at the Dapur Nusantara restaurant through the website.",
+    technologies: ["HTML", "JavaScript", "Bootstrap"],
+    url: "https://dapur-nusantara.vercel.app/",
   },
 ];
 
