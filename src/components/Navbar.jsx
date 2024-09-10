@@ -1,7 +1,7 @@
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { TbFileCv } from "react-icons/tb";
 import logo from "../assets/logoHR.jpg";
-import cv from "../assets/CV.pdf";
+import cv from "../assets/CV_Hauzan_Rafi_Attallah.pdf";
 
 const Navbar = () => {
   const handleLogoClick = () => {
@@ -50,7 +50,7 @@ const Navbar = () => {
           <FaInstagram />
         </a>
         <a
-          href= {cv}
+          href={cv}
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-white transition-colors duration-300 text-2xl"
