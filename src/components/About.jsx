@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+
 import { ABOUT_TEXT } from "../constants";
 
 const About = () => {
