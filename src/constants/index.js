@@ -40,7 +40,7 @@ export const PROJECTS = [
     description:
       "I worked on a project to clone the iPhone 15 website using Three.js, React, and GSAP, which I learned from YouTube. In this project, I delved into using Three.js to create 3D models and implemented interactive animations with GSAP to create a dynamic and engaging user experience. This project also provided me with a deeper understanding of integrating 3D models into web development.",
     technologies: ["React.js", "Three.js", "GSAP"],
-    url: "https://react-iphone-3d.vercel.app/",
+    url: "https://iphone15-apple.vercel.app/",
   },
   {
     title: "Dapur Nusantara",
